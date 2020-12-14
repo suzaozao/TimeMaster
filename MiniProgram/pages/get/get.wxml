@@ -1,0 +1,4 @@
+<!--pages/get.wxml-->
+<text>你想知道你现在的环境能不能好好学习吗</text>
+<image src='/image/m.jpg'></image>
+<button class='{{color}}' type='{{typ}}' bindtap='get'>{{content}}</button>

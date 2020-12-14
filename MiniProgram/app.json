@@ -1,0 +1,57 @@
+{
+  "pages": [
+    "pages/tomorrow/tomorrow",
+    "pages/today/today",
+    "pages/setting/setting",
+    "pages/components/template/template",
+    "pages/components/introduce/introduce",
+    "pages/components/rank/rank",
+    "pages/components/sugar/sugar",
+    "pages/components/alldata/alldata",
+    "pages/object/object",
+    "pages/get/get"
+  ],
+  "plugins": {
+    "WechatSI": {
+      "version": "0.0.7",
+      "provider": "wx069ba97219f66d99"
+    }
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#9d9d9d",
+    "navigationBarTitleText": "时间管理大师",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/tomorrow/tomorrow",
+        "text": "明天",
+        "iconPath": "image/moon.png",
+        "selectedIconPath": "image/moon_hl.png"
+      },
+      {
+        "pagePath": "pages/today/today",
+        "text": "今天",
+        "iconPath": "image/sun.png",
+        "selectedIconPath": "image/sun_hl.png"
+      },
+      {
+        "pagePath": "pages/object/object",
+        "text": "事件",
+        "iconPath": "image/template.png",
+        "selectedIconPath": "image/template.png"
+      },
+      {
+        "pagePath": "pages/setting/setting",
+        "text": "设置",
+        "iconPath": "image/setting.png",
+        "selectedIconPath": "image/setting_hl.png"
+      }
+    ],
+    "color": "#9d9d9d",
+    "selectedColor": "#90CFF0"
+  },
+  "sitemapLocation": "sitemap.json"
+}
