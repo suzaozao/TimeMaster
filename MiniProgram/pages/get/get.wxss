@@ -1,0 +1,7 @@
+/* pages/get.wxss */
+.red{
+color:red,
+}
+.green{
+background:green,
+}

@@ -1,0 +1,7 @@
+/**app.wxss**/
+page {
+  height: 100%;
+  font-family: Helvetica, 'Hiragino Sans GB', 'Microsoft Yahei', '微软雅黑', Arial, sans-serif;
+  background-image:url('https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1607925676101&di=82da358f16ba156b976eac5bd10baf71&imgtype=0&src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201509%2F27%2F20150927124843_rjv5X.thumb.700_0.jpeg');
+  background-size: cover;
+}
